@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffff;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px ;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  ul li {
+    margin-left: 20px;
+  }
+  
+  ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+
+  ul li a:hover {
+    color: red;
+  }
+
+  .cta {
+    background-color: #ffff;
+    color: red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0.5px solid gray;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    border: 0.5px solid red;
+  }
+
+ .middle{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* font-size: 30px; */
+    line-height: 2.0;
+  }
+
+  .gya{
+    width:430px;
+    line-height: 50px;
+  }
+  .gya>h1{
+    font-size: 50px;
+    font-weight: 200;
+  }
+  .gya>p{
+    font-weight: 200;
+    font-size: 20px;
+  }
+
+  .getbtn {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    font-size: 30px;
+    transition: background-color 0.1s ease;
+
+  }
+
+  .getbtn:hover {
+    background-color: rgb(245, 113, 113);
+  }
+
+  .broadc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .setup{
+    width:400px;
+    line-height: 60px;
+  }
+
+  .setup>h1 {
+    font-size: 50px;
+  }
+
+  .setup>p {
+    line-height: 23px;
+    color: grey;
+  }
+
+  .theresmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .theresmore>h1 {
+    font-weight: 200;
+  }
+
+  .more {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .onelink {
+    width: 400px;
+    line-height: 30px;
+  }
+
+  .onelink>p {
+    line-height: 25px;
+    font-size: 20px;
+    color: gray;
+  }
+
+  .sec1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .sec2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .more2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sec3 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .more3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .middle2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* font-size: 30px; */
+    line-height: 2.0;
+  }
+
+  .gya2{
+    width:430px;
+    line-height: 50px;
+  }
+  .gya2>h1{
+    font-size: 50px;
+    font-weight: 200;
+  }
+
+  .getbtn2 {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 0.1s ease;
+
+  }
+
+  .getbtn2:hover {
+    background-color: rgb(245, 113, 113);
+  }
+  
