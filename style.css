@@ -206,10 +206,10 @@
   .getbtn2 {
     background-color: red;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 29px;
     border: none;
-    margin-top: 30px;
     text-decoration: none;
     font-size: 20px;
     transition: background-color 0.1s ease;
@@ -218,5 +218,30 @@
 
   .getbtn2:hover {
     background-color: rgb(245, 113, 113);
+  }
+
+  .logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+  .logo2 img {
+    width: 90px;
+  }
+
+  .foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   
